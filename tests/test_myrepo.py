@@ -10,4 +10,4 @@ def test_subtract():
 
 def test_division():
 	result = paycode.division(2, 1)
-	assert result == 1
+	assert result == 2
