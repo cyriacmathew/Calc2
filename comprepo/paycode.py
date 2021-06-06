@@ -101,5 +101,9 @@ def hello_gcs(event, context):
     destination_table = client.get_table(table_id)  # Make an API request.
     print("Loaded {} rows.".format(destination_table.num_rows))
     print(event)
+def add(first_term, second_term):
+    return first_term + second_term
 
+def subtract(first_term, second_term):
+    return first_term - second_term
 
